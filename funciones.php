@@ -12,8 +12,6 @@ function cerrarSesion()
 function alertaError($mensaje)
 {
     echo '<section>
-        <div class="square_box box_three"></div>
-        <div class="square_box box_four"></div>
         <div class="container mt-5">
             <div class="row">
                 <div class="col-sm-12">
@@ -25,7 +23,7 @@ function alertaError($mensaje)
                             <span class="sr-only">Close</span>
                         </button>
                         <i class="start-icon far fa-times-circle faa-pulse animated"></i>
-                        <strong class="font__weight-semibold">Error</strong>' . $mensaje . '
+                        <strong class="font__weight-semibold">Error! </strong>' . $mensaje . '
                     </div>
                 </div>
             </div>
@@ -36,8 +34,6 @@ function alertaError($mensaje)
 function alertaExito($mensaje)
 {
     echo '<section>
-            <div class="square_box box_three"></div>
-            <div class="square_box box_four"></div>
             <div class="container mt-5">
                 <div class="row">
 
@@ -50,7 +46,7 @@ function alertaExito($mensaje)
                                 <span class="sr-only">Close</span>
                             </button>
                             <i class="start-icon far fa-check-circle faa-tada animated"></i>
-                            <strong class="font__weight-semibold">Bien hecho!</strong>'. $mensaje .'
+                            <strong class="font__weight-semibold">Bien hecho! </strong>'. $mensaje .'
                         </div>
                     </div>
                 </div>

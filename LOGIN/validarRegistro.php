@@ -13,7 +13,7 @@ $filas = mysqli_num_rows($resultado);
 if ($filas) { //distinto a 0
     include('registro.php');
     alertaError('Usuario ya existe');
-} else if ($contrasenna == $contrasenna_confirmar) {
+} else if ($contrasenna != $contrasenna_confirmar) {
     include('registro.php');
     alertaError('Las contraseñas no coinciden');
 } else {

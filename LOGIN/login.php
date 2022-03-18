@@ -54,8 +54,6 @@
             <button class="login__submit" type="submit">Continuar</button>
         </form>
 
-        <a href="#" class="login__forgot">¿Olvidaste tu contraseña?</a>
-
     </div>
 
 </body>
