@@ -27,13 +27,13 @@
     <!-- <button type="submit">Enviar</button> -->
 
     <div style="background-color:blueviolet;" class="login-container">
-        <form action="validar.php" class="form-login" method="post">
+        <form action="validarRegistro.php" class="form-login" method="post">
 
             <ul class="opciones">
-                <li class="opcion activa">
+                <li class="opcion ">
                     <a href="login.php">Ingresar</a>
                 </li>
-                <li class="opcion">
+                <li class="opcion activa">
                     <a href="registro.php">Registrarse</a>
                 </li>
             </ul>
@@ -51,10 +51,15 @@
             <input id="input-contrasenna-id" class="login__input" type="password" name="contrasenna" />
 
 
+            <label for="input-contrasenna-confirmar-id" class="login__label">
+                Confirme su contraseña
+            </label>
+            <input id="input-contrasenna-confirmar-id" class="login__input" type="password" name="contrasenna-confirmar" />
+
+
             <button class="login__submit" type="submit">Continuar</button>
         </form>
 
-        <a href="#" class="login__forgot">¿Olvidaste tu contraseña?</a>
 
     </div>
 
