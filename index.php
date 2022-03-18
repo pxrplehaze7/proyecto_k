@@ -43,8 +43,6 @@ session_start();
                     }
                     ?>
                     
-
-
                 </ul>
 
                 <?php
