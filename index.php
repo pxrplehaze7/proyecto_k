@@ -32,24 +32,24 @@ session_start();
                     </li>
 
                     <?php
-                    if (verificarSesion()==false){
-                    //if (!verificarSesion(){       lo mismo de arriba
-                    ?>   
-                    <li class="nav-item">
-                        <a class="nav-link"  href="login/login.php" method="get">Ingresar</a>
-                    </li>
+                    if (verificarSesion() == false) {
+                        //if (!verificarSesion(){       lo mismo de arriba
+                    ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login/login.php">Ingresar</a>
+                        </li>
 
                     <?php
                     }
                     ?>
-                    
+
                 </ul>
 
                 <?php
                 if (verificarSesion()) {
                 ?>
                     <form action="logout.php" class="d-flex" method="post">
-                        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</button>           
+                        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</button>
                     </form>
                 <?php
                 }
