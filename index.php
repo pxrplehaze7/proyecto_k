@@ -20,7 +20,7 @@ session_start();
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Instagram
+            <a class="navbar-brand" href="index.php">Instagram
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@ session_start();
                     //if (!verificarSesion(){       lo mismo de arriba
                     ?>   
                     <li class="nav-item">
-                        <a class="nav-link" href="login/login.php">Ingresar</a>
+                        <a class="nav-link"  href="login/login.php" method="get">Ingresar</a>
                     </li>
 
                     <?php
