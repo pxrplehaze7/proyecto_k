@@ -31,10 +31,10 @@
 
             <ul class="opciones">
                 <li class="opcion ">
-                    <a href="login.php">Ingresar</a>
+                    <a href="login">Ingresar</a>
                 </li>
                 <li class="opcion activa">
-                    <a href="registro.php">Registrarse</a>
+                    <a href="registro">Registrarse</a>
                 </li>
             </ul>
 

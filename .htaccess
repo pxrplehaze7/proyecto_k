@@ -1,0 +1,14 @@
+#siguiera los links simbolicos
+Options +FollowSymLinks
+#motor de reescribir enciende
+RewriteEngine on
+
+IndexIgnore *
+
+RewriteRule ^registro/?$ LOGIN/registro.php [NC]
+RewriteRule ^login/?$ LOGIN/login.php [NC]
+
+#NC es que ignora si es mayuscula o minuscula
+
+
+

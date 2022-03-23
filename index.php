@@ -36,7 +36,7 @@ session_start();
                         //if (!verificarSesion(){       lo mismo de arriba
                     ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="login/login.php">Ingresar</a>
+                            <a class="nav-link" href="login">Ingresar</a>
                         </li>
 
                     <?php
