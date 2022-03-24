@@ -5,6 +5,15 @@ body {
   line-height: 1.25;
   letter-spacing: 1px;
 }
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;/* centrar verticalmente CON FLEX*/
+  justify-content: center;/* centrar horizontalmente CON FLEX*/
+}
+.input-group{
+  width: 50%!important;
+}
 
 * {
   box-sizing: border-box;
